@@ -89,6 +89,8 @@ repo = 'Shougo/neosnippet-snippets'
 # Dark powered asynchronous completion framework for NeoVim
 [[plugins]]
 repo = 'Shougo/deoplete.nvim'
+if = 'has("nvim")'
+on_i = 1
 
 # 開いたファイルの構造を表示してくれる
 # クラス, メソッド, フィールド等

@@ -10,5 +10,9 @@ set completeopt-=preview
 " =======================
 "        sources
 " =======================
+" jedi
 
+" ruby
+let g:deoplete#omni_patterns = {}
+let g:deoplete#omni_patterns.ruby = ['[^. *\t]\.\w*', '\h\w*::']
 
