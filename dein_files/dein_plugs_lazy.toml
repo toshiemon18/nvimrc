@@ -34,6 +34,11 @@ on_ft = ['ruby']
 repo = 'slim-template/vim-slim'
 on_ft = ['slim']
 
+# deoplete-ruby
+[[plugins]]
+repo = 'fishbullet/deoplete-ruby'
+on_ft = ['ruby', 'slim']
+
 # =================
 #   JavaScript
 #   CoffeeScript
@@ -92,6 +97,11 @@ on_ft = ['R', 'r']
 [[plugins]]
 repo = 'elixir-lang/vim-elixir'
 on_ft = ['elixir', 'eex']
+
+# [[plugins]]
+# repo = 'awetzel/elixir.nvim'
+# build = './install.sh'
+# on_ft = ['elixir', 'eex']
 
 # Phoenix対応
 [[plugins]]
