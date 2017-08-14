@@ -85,10 +85,10 @@ repo = 'ctrlpvim/ctrlp.vim'
 [[plugins]]
 repo = 'honza/vim-snippets'
 
-# 補完入力をサポート
-# neocomplete.vim
+# deoplete.vim
+# Dark powered asynchronous completion framework for NeoVim
 [[plugins]]
-repo = 'Shougo/neocomplete.vim'
+repo = 'Shougo/deoplete.nvim'
 
 # 開いたファイルの構造を表示してくれる
 # クラス, メソッド, フィールド等
