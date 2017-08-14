@@ -62,3 +62,9 @@ set guifontwide=Ricty\ 14
 set autoindent smartindent expandtab tabstop=4 softtabstop=4 shiftwidth=4
 " *.coffeeはcoffeescriptとして扱う
 autocmd BufRead,BufNewFile,BufWritePre *.coffee set filetype=coffee
+
+" =======================
+"         環境系
+" =======================
+let g:python3_host_prog=expand($HOME.'/.pyenv/versions/3.6.1/bin/python')
+
