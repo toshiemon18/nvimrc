@@ -77,13 +77,13 @@ repo = 'ctrlpvim/ctrlp.vim'
 # ======================
 # プログラミングサポート
 # ======================
-# ultisnips
-# [[plugins]]
-# repo = 'SirVer/ultisnips'
-
-# vim-snippets
+# neosnippets
 [[plugins]]
-repo = 'honza/vim-snippets'
+repo = 'Shougo/neosnippet.vim'
+
+# neosnippets-snippets
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
 
 # deoplete.vim
 # Dark powered asynchronous completion framework for NeoVim
