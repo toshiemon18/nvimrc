@@ -9,7 +9,7 @@ nnoremap <ESC><ESC> :nohlsearch<CR>
 map vn :vnew<CR>
 
 " インサートモードでもhjkl
-imap <C-h> <Left>
 imap <C-j> <Down>
 imap <C-k> <Up>
+imap <C-h> <Left>
 imap <C-l> <Right>
