@@ -47,7 +47,7 @@ on_ft = ['ruby', 'slim']
 # vim-javascript
 [[plugins]]
 repo = 'pangloss/vim-javascript'
-on_ft = ['javascript', 'coffeescript']
+on_ft = ['javascript', 'coffee']
 
 [[plugins]]
 repo = 'jelera/vim-javascript-syntax'
@@ -60,7 +60,7 @@ on_ft = ['javascript']
 # CoffeeScriptを書くためのサムシング
 [[plugins]]
 repo = 'kchmck/vim-coffee-script'
-on_ft = ['javascript', 'coffeescript']
+on_ft = ['javascript', 'coffee']
 
 # JSのコードを整形してくれるやつ
 [[plugins]]
