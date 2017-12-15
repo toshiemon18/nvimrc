@@ -1,6 +1,10 @@
 " ================
 "  tagbar
 " ================
+
+" キーマップ
+let g:tagbar_width=20
+
 " CoffeeScript
 let g:tagbar_type_coffee = {
     \ 'ctagstype': 'coffee',
