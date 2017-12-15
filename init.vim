@@ -54,4 +54,7 @@ endif
 " 		call dein#update()
 " endif
 
+" DeopleteでESCをmappingする
+let g:AutoClosePumvisible = {"ENTER": "<C-Y>", "ESC": "<ESC>"}
+
 runtime! userautoload/*.vim
