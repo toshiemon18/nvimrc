@@ -29,7 +29,9 @@ endfunction
 
 " Vim起動時にNERDTreeを開き, Bufferにカーソルを移動する
 autocmd vimenter * NERDTree
-call s:MoveToBufferAsStart()
+if argc() != 0
+    call s:MoveToBufferAsStart()
+endif
 " 他のバッファが閉じてたらNERDTreeも閉じる
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
