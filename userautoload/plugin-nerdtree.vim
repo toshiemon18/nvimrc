@@ -3,6 +3,7 @@
 " =================
 let NERDTreeIgnore=['\.o$', '\.pyc$', '\.php\~$']
 let NERDTreeShowLineNumbers = 1
+let NERDTreeShowHidden = 1
 let NERDTreeAutoCenter = 1
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
     exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
@@ -22,13 +23,13 @@ call NERDTreeHighlightFile('js',     'Red',     'none', '#ffa500', '#151515')
 call NERDTreeHighlightFile('php',    'Magenta', 'none', '#ff00ff', '#151515')
 
 function s:MoveToBufferAsStart()
-    call feedkeys("\<Space>")
-    call feedkeys("\s")
-    call feedkeys("\l")
+    call feedkeys("\<C-w>")
+    call feedkeys("\<C-w>")
 endfunction
 
 " Vim起動時にNERDTreeを開き, Bufferにカーソルを移動する
-autocmd vimenter * NERDTree | call s:MoveToBufferAsStart()
+autocmd vimenter * NERDTree
+call s:MoveToBufferAsStart()
 " 他のバッファが閉じてたらNERDTreeも閉じる
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
