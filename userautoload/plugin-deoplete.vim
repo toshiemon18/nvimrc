@@ -14,9 +14,6 @@ let g:deoplete#file#enable_buffer_path = 1
 let g:deoplete#max_list = 10000
 set completeopt-=preview
 
-inoremap <expr><tab> pumvisible() ? "\<C-n>" :
-\ neosnippet#expandable_or_jumpable() ?
-\ "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>"
 
 " =======================
 "        sources
