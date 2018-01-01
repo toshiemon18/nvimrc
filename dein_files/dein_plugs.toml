@@ -151,6 +151,9 @@ repo = 'jtratner/vim-flavored-markdown'
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
 # =================
 #   Others
 # =================
