@@ -13,3 +13,9 @@ imap <C-j> <Down>
 imap <C-k> <Up>
 imap <C-h> <Left>
 imap <C-l> <Right>
+
+" Reload config
+nnoremap <Space>rv :source $HOME/.config/nvim/init.vim<CR>
+
+" :UpdateRemotePlugins
+nnoremap <Space>ur :UpdateRemotePlugins<CR>
