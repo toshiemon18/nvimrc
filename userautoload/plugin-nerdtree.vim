@@ -22,7 +22,7 @@ call NERDTreeHighlightFile('rb',     'Red',     'none', 'red',     '#151515')
 call NERDTreeHighlightFile('js',     'Red',     'none', '#ffa500', '#151515')
 call NERDTreeHighlightFile('php',    'Magenta', 'none', '#ff00ff', '#151515')
 
-function s:MoveToBufferAsStart()
+function! s:MoveToBufferAsStart()
     call feedkeys("\<C-w>")
     call feedkeys("\<C-w>")
 endfunction
