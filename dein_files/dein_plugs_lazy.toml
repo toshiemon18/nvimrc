@@ -80,7 +80,6 @@ on_ft = ['javascript']
 repo = 'zchee/deoplete-jedi'
 depends = ['deoplete.nvim']
 on_ft = ['python']
-on_i = 1
 
 # =================
 #   R
