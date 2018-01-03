@@ -77,6 +77,10 @@ repo = 'osyo-manga/shabadou.vim'
 [[plugins]]
 repo = 'ctrlpvim/ctrlp.vim'
 
+# neoterm
+# [[plugins]]
+# repo = 'kassio/neoterm'
+
 # ======================
 # プログラミングサポート
 # ======================
@@ -100,9 +104,12 @@ on_i = 1
 # 新規ファイルタイプの設定を追加する時は下記参照
 # https://github.com/majutsushi/tagbar/wiki
 # majutsushi/tagbar
-[[plugins]]
-repo = 'majutsushi/tagbar'
+# [[plugins]]
+# repo = 'majutsushi/tagbar'
 
+# [[plugins]]
+# repo = 'jsfaint/gen_tags.vim'
+#
 # 閉じ系を自動で補完してよしなにしてくれる
 # Townk/vim-autoclose
 [[plugins]]
