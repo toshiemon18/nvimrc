@@ -2,8 +2,9 @@
 "  tagbar
 " ================
 
-" キーマップ
 let g:tagbar_width=20
+let g:tagbar_left = 0
+let g:tagbar_autofocus=1
 
 " CoffeeScript
 let g:tagbar_type_coffee = {
