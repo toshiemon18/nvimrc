@@ -34,11 +34,20 @@ on_ft = ['ruby']
 repo = 'slim-template/vim-slim'
 on_ft = ['slim']
 
+# deoplete-rct
+[[plugins]]
+repo = 'Shougo/deoplete-rct'
+on_ft = ['ruby']
+
+# deoplete-ruby
+[[plugins]]
+repo = 'fishbullet/deoplete-ruby'
+on_ft = ['ruby']
+
 # vim-monster
-# RUby completion
 [[plugins]]
 repo = 'osyo-manga/vim-monster'
-on_ft = ['ruby', 'slim']
+on_ft = ['ruby']
 
 # =================
 #   JavaScript
@@ -98,11 +107,6 @@ on_ft = ['R', 'r']
 repo = 'elixir-lang/vim-elixir'
 on_ft = ['elixir', 'eex']
 
-# [[plugins]]
-# repo = 'awetzel/elixir.nvim'
-# build = './install.sh'
-# on_ft = ['elixir', 'eex']
-
 # Phoenix対応
 [[plugins]]
 repo = 'avdgaag/vim-phoenix'
@@ -118,15 +122,10 @@ on_ft = ['elixir', 'eex']
 repo = 'mattreduce/vim-mix'
 on_ft = ['elixir', 'eex']
 
-# Elixirでもctagsを適用
-[[plugins]]
-repo = 'mmorearty/elixir-ctags'
-on_ft = ['elixir', 'eex']
-
 # slashmili/alchemist.vim
 [[plugins]]
 repo = 'slashmili/alchemist.vim'
-depends = ['deoplete.nvim']
+depends = 'vim-elixir'
 on_ft = ['elixir', 'eex']
 
 # =================
